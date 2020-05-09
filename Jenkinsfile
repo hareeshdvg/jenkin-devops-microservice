@@ -21,13 +21,13 @@ pipeline {
 			}
 		 
 		} post{
-		    always{
+		    always {
 			  echo 'Im awesome, I run always'
 			}
-			success{
+			success {
 			  echo 'I run when you are successfull'
 			}
-			failure{
+			failure {
 			  echo 'I run when you fail'
 			}
 		}
