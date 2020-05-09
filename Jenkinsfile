@@ -1,7 +1,7 @@
 //scripted
 
 //Declarative 
-pipeline {
+    pipeline {
 		agent any
 		stages{
 			stage('Build'){
@@ -19,7 +19,6 @@ pipeline {
 					echo "Integration Test"
 				}
 			}
-		 
 		} post{
 		    always {
 			  echo 'Im awesome, I run always'
